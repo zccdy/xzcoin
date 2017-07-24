@@ -1,0 +1,3 @@
+---- upnpDiscover Matches (2 in 1 files) ----
+Net.cpp:    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0);
+Net.cpp:    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, &error);
