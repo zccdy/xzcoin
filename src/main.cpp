@@ -1104,8 +1104,8 @@ int64_t GetBlockValue(int nHeight, int64_t nFees)
 	
     nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
 
-	if(nHeight < 11){
-		return  10000000 * COIN+ nFees;
+	if(nHeight < 10){
+		return  100000000 * COIN+ nFees;
 	}
 	
     return nSubsidy + nFees;
