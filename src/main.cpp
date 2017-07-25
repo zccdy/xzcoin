@@ -52,7 +52,7 @@ unsigned int nCoinCacheSize = 5000;
 
 unsigned int nDefaultSubsidy=100;
 
-static const int64_t nTargetTimespan = 2 * 60; // 两分钟调整一次
+static const int64_t nTargetTimespan = 2 * 60; // 脕陆路脰脰脫碌梅脮没脪禄麓脦
 static const int64_t nTargetSpacing = 10;//10 miao
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 
@@ -1105,7 +1105,7 @@ int64_t GetBlockValue(int nHeight, int64_t nFees)
     nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
 
 	if(nHeight < 11){
-		return  4000000 * COIN+ nFees;
+		return  10000000 * COIN+ nFees;
 	}
 	
     return nSubsidy + nFees;
