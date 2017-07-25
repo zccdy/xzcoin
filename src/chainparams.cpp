@@ -153,13 +153,7 @@ public:
 		assert(hashGenesisBlock == uint256("0x00000000cd3f1b8fef8a8124fceb7cd81d75cb92ffbda2c7e7f8e964ea2df952"));        
 		//assert(genesis.hashMerkleRoot == uint256("0x63f2e900b42514da5fda1ce1ac15a360cab143d6f375e3cc7ccdc707c4efb3ed"));
 
-		/*
-		vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be"));        
-		vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me"));        
-		vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.bitcoin.dashjr.org"));        
-		vSeeds.push_back(CDNSSeedData("bitcoinstats.com", "seed.bitcoinstats.com"));        
-		vSeeds.push_back(CDNSSeedData("xf2.org", "bitseed.xf2.org"));     
-		*/
+		vSeeds.push_back(CDNSSeedData("vps", "144.48.141.148"));
 
 		
 		base58Prefixes[PUBKEY_ADDRESS] = list_of(55);        
